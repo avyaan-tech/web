@@ -15,14 +15,14 @@
 Web
 │
 ├── Site
-│   └── Project             (cutie/web-site)
+│   └── Project             (avyaan-tech/web-site)
 |       ├── root\framework  (blank-org/cutie - submoduled)
 │       ├── interim
 │       └── public
 │
-├── Project                 (cutie/web * this repo)
-│   ├── interim             (cutie/web-interim)
-│   └── public              (cutie/web-public > cutie.com)
+├── Project                 (avyaan-tech/web * this repo)
+│   ├── interim             (avyaan-tech/web-interim)
+│   └── public              (avyaan-tech/web-public > avyaan.tech)
 |
 │
 └── Tiggu                   (blank-org/tiggu)
@@ -51,7 +51,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out serv
 ```
 
 You may also want to add this to your trusted-root CA store  
-\- so that you are not presented with the *insecure origin* message when navigating to `local.cutie.com`
+\- so that you are not presented with the *insecure origin* message when navigating to `local.avyaan.tech`
 
 
 ## Manage
@@ -59,7 +59,7 @@ You may also want to add this to your trusted-root CA store
 Used to setup CI; Not required afterwards - hence separate.
 
 ## Website
-`cutie.com` \> mapped to `public` directory
+`avyaan.tech` \> mapped to `public` directory
 
 ## Setup
 - Run following script to setup the directory structure & repos
