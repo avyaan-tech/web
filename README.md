@@ -80,12 +80,17 @@ clone_repo() {
 }
 
 # clone git repositories into specific paths
-clone_repo "site/project" "https://github.com/blankorg/cutie-web-site.git"
-clone_repo "project" "https://github.com/blankorg/cutie-/web.git"
-clone_repo "project/interim" "https://github.com/blankorg/cutie-web-interim.git"
-clone_repo "project/public" "https://github.com/blankorg/cutie-web-public.git"
+clone_repo "site/project" "https://github.com/avyaan-technologies/web-site.git"
+clone_repo "project" "https://github.com/avyaan-technologies/web.git"
+clone_repo "project/interim" "https://github.com/avyaan-technologies/web-interim.git"
+clone_repo "project/public" "https://github.com/avyaan-technologies/web-public.git"
 clone_repo "tiggu" "https://github.com/blankorg/cutie-tiggu.git"
 # clone_repo "firebase" "https://github.com/blank-org/firebase.git"
 ```
 
 - Then build and run docker for `web/project`
+
+```bash
+docker compose -f compose-dev.yaml up -p avyaan-web
+
+```
