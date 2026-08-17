@@ -1,0 +1,8 @@
+docker compose -f compose-dev.yaml build --no-cache
+
+docker compose -f compose-dev.yaml --env-file .env -p 'avyaan' up -d
+
+?docker run -it --env-file .env -p 5000:5000 'avyaan'
+
+?docker run -it --env-file .env 'avyaan'
+
