@@ -13,6 +13,7 @@ services:
     build: ../site/project
     extra_hosts:
       - "local.avyaan.tech:127.0.0.1"
+      - "avyaan.local:127.0.0.1"
       - "interim.avyaan.tech:127.0.0.1"
       - "public.avyaan.tech:127.0.0.1"
     # restart: always

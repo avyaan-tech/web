@@ -8,6 +8,7 @@
 ## Localhost - hosts file
 
 - local.avyaan.tech - 127.0.0.1
+- avyaan.local - 127.0.0.1 (local dev at https://avyaan.local)
 
 ## Project structure
 
